@@ -19,7 +19,14 @@ body{
  
 }
 
-article #container1{
-    background-image: url(novapasta/imagens/background001.jpg);
+article#container1 {
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    min-height: 300px;
+   
 
 }
