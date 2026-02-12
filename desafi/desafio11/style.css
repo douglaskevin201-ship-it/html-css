@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+header{
+    background-color: black;
+    width: 800px;
+    height: 150px;
+    padding: 10px;
+    
+}
+
+header h1{
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+ 
+}
+
+article.container1{
+    background-color: blue;
+    width: 800px;
+    height: 500px;
+}
