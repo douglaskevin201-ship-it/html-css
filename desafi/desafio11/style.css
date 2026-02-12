@@ -2,31 +2,83 @@
 
 header{
     background-color: black;
-    width: 800px;
-    height: 150px;
-    padding: 10px;
+    padding: 30px;
+    text-align: center;
     
 }
 
 header h1{
     color: white;
-    display: block;
-    text-align: center;
+    margin: 0;
+    
+}
+header p{
+    color: white;
 }
 
 body{
     background-color: white;
- 
+    margin: 0px;
+    padding: 0px;
 }
 
 article#container1 {
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
-    
-    background-position: center center;
+    background-position: left center;
     background-size: cover;
     padding: 50px 0px;
-    min-height: 300px;
-   
+    min-height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
 
+}
+
+article#container1 > section,
+article#container2 > section{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px;
+    width: 350px;
+    margin-left: 5%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    
+}
+
+article#container2{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: cover;
+    padding: 50px 0px;
+    min-height: 400px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+section{
+    padding: 20px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin-left: 2%;
+}
+
+section h3{
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
 }
