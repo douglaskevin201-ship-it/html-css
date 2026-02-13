@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+body{
+    display: block;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10vw;
+    padding-top: 50px;
+}
+
+header > p{
+    font-size: 1em;
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+a:hover{
+    background-color: white;
+    text-decoration: dashed;
+}
+
+header > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10vw;
+    padding-top: 50px;
+}
+
+section{
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+}
+
+section.normal{
+    background-color: white;
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+
+}
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+footer{
+    display: block;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
